@@ -1,0 +1,8 @@
+{
+    "kword": "markov",
+    "learning": "true",
+    "ignored_users": [],
+    "checkpoint": 10,
+    "corpus_path": "data/corpus.json",
+    "words_per_node": 2
+}
