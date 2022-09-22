@@ -86,7 +86,7 @@ def generate_sentence(transition_probs, node_length, start_node=None, patience=1
         # append first word of node
         sentence.append(node.split(" ")[0])
 
-        # try patience times to find a next node that is not found or terminator
+        # look for patience amount of times to find a next node that is not None (not found) or terminator
         for _ in range(patience):
             next_node = random_step(transition_probs, node)
             if next_node != "." and next_node != None:
