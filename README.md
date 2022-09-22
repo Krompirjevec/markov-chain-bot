@@ -8,7 +8,7 @@ Inspired by markovbaj on r/forsen.
 1. Clone repo
 2. Install requirements in req.txt
 3. Change token to your token in data/secret.json
-4. (optional) Change parameters in config.json
+4. (optional) Change parameters in config.json and/or delete corpus.json
 5. run bot.py
 6. ???
 7. Profit
