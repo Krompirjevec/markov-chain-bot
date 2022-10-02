@@ -114,7 +114,7 @@ def generate_sentence(transition_probs, node_length, start_node=None, patience=1
 
 def main():
     """
-    prints random sentence from corpus - slow with large corpuses due to long calculating time
+    prints random sentence from corpus - slow with large corpora due to long calculating time
     """
 
     # load config
